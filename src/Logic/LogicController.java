@@ -139,7 +139,7 @@ public class LogicController implements ActionListener , ListSelectionListener{
             File lineFile= fileChooser.getSelectedFile();
             Path linePath = Paths.get(lineFile.getAbsolutePath());
             List<String> lineLines =Files.readAllLines(linePath);
-          // check point 
+           
             System.out.println("upload file is Done");
            
             for(String lineLine : lineLines){
