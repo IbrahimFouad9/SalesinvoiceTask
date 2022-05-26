@@ -196,7 +196,7 @@ public class LogicController implements ActionListener , ListSelectionListener{
             }
          }
        
-           // System.out.println("test");
+
           try {
            JFileChooser fileChooser = new JFileChooser();
            int result = fileChooser.showSaveDialog(ui) ; 
